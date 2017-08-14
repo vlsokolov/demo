@@ -1,0 +1,12 @@
+---
+buildName: "demo"
+links:
+  Git: "https://github.com/vlsokolov/demo.git"
+  Job: "http://192.168.99.100:30792/job/demo"
+  Production: "http://10.0.0.71:80/kubernetes/pods?namespace=default-prod"
+  Staging: "http://10.0.0.71:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.71:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
